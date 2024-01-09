@@ -2,7 +2,7 @@ function submit(){
     let lat=document.getElementById("lat").value
     let long=document.getElementById("long").value
 
-    fetch(`http://api.geonames.org/countrySubdivisionJSON?lat=${lat}&lng=${long}&username=ranjith`, { method: 'GET' })
+    fetch(`http://api.geonames.org/countrySubdivisionJSON?lat=${lat}&lng=${long}&username=Priyalatha`, { method: 'GET' })
 
 
     .then(response=>response.text())
